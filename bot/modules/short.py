@@ -21,12 +21,9 @@ async def shorthere(_, message):
 📆 Date - `{date}`
 
 😊 You can get how many times your link has been visited
-Giving this command to @szurlshortbot.
+Giving this command to bot.
 
-● Command : `/statics {shorturl}`
-
-[API](https://t.me/G99Solutions/319) | [support-Chat](https://t.me/slbotzone)
-
+● Command : /statics {shorturl}
 """,disable_web_page_preview=True)
 
 @sz.on_message(filters.command("statics"))
@@ -47,5 +44,4 @@ async def shorthere(_, message):
 🔗 Longurl - {longurl}
 📆 Date - `{date}`
 
-[API](https://t.me/G99Solutions/319) | [support-Chat](https://t.me/slbotzone)
 """,disable_web_page_preview=True)
